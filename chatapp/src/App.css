@@ -1,0 +1,37 @@
+body{
+    background-color: #222;
+
+}
+
+.chatcontainer{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.user-list{
+    padding: 2rem;
+    color: white;
+}
+
+.user-info{
+    
+    padding: 2rem;
+    color: white;
+}
+
+.user-list-item{
+    background-color: #434242;
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+    padding: 0 1rem;
+    margin: 0.5rem 0;
+}
+.user-list-item p{
+    font-size: 1.2rem;
+}
+.user-list-item img{
+    padding: 1rem;
+    cursor: pointer;
+}
